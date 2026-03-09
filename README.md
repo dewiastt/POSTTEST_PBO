@@ -2,14 +2,6 @@
 
 ## 📝 Deskripsi Program
 Sistem Pengisian Pulsa dan Paket Data Online adalah aplikasi manajemen inventaris produk digital berbasis Java Console yang dirancang untuk mengoptimalkan pengelolaan stok layanan telekomunikasi. Program ini berfungsi sebagai platform administratif sederhana yang menjembatani pencatatan produk pulsa reguler dan paket internet dalam satu sistem terintegrasi.
-
-## 2. Fitur Program
-Program memiliki menu interaktif yang dapat dijalankan berulang kali (looping) hingga pengguna memilih menu keluar. Fitur utamanya meliputi operasi **CRUD**:
-* ➕ **Create**: Menambahkan data produk pulsa atau paket data baru.
-* 📖 **Read**: Melihat daftar seluruh produk yang tersedia.
-* ✏️ **Update**: Mengedit harga produk yang sudah ada.
-* 🗑️ **Delete**: Menghapus produk yang sudah tidak dijual.
-
 ---
 
 ## 🎯 Tujuan Program
@@ -110,7 +102,7 @@ Pilih Menu: _perbarui harga pada item Pulsa atau Paket Data tertentu berdasarkan
 * `PaketData`: Class data untuk entitas Paket Data.
 
 ---
-## Identitas Pengembang
+## 👤 Identitas Pengembang
 * **Nama** : Dewi astuti
 * **NIM** : 2409106007
 * **Kelas** : A1'24
