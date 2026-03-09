@@ -71,7 +71,9 @@ Pusat kendali program berada pada kelas utama :
 | **Hapus Data** | Menghilangkan objek dari list berdasarkan nomor indeks yang dipilih. |
 <img width="274" height="169" alt="image" src="https://github.com/user-attachments/assets/23192b0a-900b-4b57-a682-ae64ae329777" />
 
+
 | **Keluar** | Menghentikan eksekusi program secara aman. |
+
 <img width="270" height="137" alt="image" src="https://github.com/user-attachments/assets/0a3e0a3c-e634-4f39-b371-e1da52c20c83" />
 
 ---
