@@ -1,7 +1,8 @@
 # Sistem Pengisian Pulsa dan Paket Data Online
 
 ## 📝 Deskripsi Program
-Sistem Pengisian Pulsa dan Paket Data Online adalah aplikasi manajemen inventaris produk digital berbasis Java Console yang dirancang untuk mengoptimalkan pengelolaan stok layanan telekomunikasi. Program ini berfungsi sebagai platform administratif sederhana yang menjembatani pencatatan produk pulsa reguler dan paket internet dalam satu sistem terintegrasi.
+---
+*  Sistem Pengisian Pulsa dan Paket Data Online adalah aplikasi manajemen inventaris produk digital berbasis Java Console yang dirancang untuk mengoptimalkan pengelolaan stok layanan telekomunikasi. Program ini berfungsi sebagai platform administratif sederhana yang menjembatani pencatatan produk pulsa reguler dan paket internet dalam satu sistem terintegrasi. *
 ---
 
 ## 🎯 Tujuan Program
@@ -15,18 +16,22 @@ Sistem Pengisian Pulsa dan Paket Data Online adalah aplikasi manajemen inventari
 ## 🏗️ Struktur Program
 Program terdiri dari tiga kelas utama yang saling terintegrasi dan Program ini juga dirancang menggunakan arsitektur **Object-Oriented Programming (OOP)** sederhana yang memisahkan antara entitas data (Model) dan logika pemrosesan (Main System).
 
+---
+
 ### 1. Entitas Data (Data Class)
 Setiap class merepresentasikan produk digital yang berbeda:
 
 * **Class `Pulsa`**: Digunakan untuk mengelola produk pulsa reguler.
     * **Atribut**: `provider` (String), `nominal` (int), `harga` (int).
     * **Metode**: *Constructor* berparameter dengan penggunaan keyword `this`.
+
       <img width="384" height="182" alt="image" src="https://github.com/user-attachments/assets/0d580cc3-34b5-4780-8954-f6d525406e27" />
 
 * **Class `PaketData`**: Digunakan untuk mengelola produk paket internet.
     * **Atribut**: `namaPaket` (String), `kuota` (String), `harga` (int).
     * **Metode**: *Constructor* berparameter untuk inisialisasi instansiasi objek.
-      <img width="358" height="184" alt="image" src="https://github.com/user-attachments/assets/6fa9a060-3cff-48d2-a5cc-128d26daffca" />
+
+       <img width="358" height="184" alt="image" src="https://github.com/user-attachments/assets/6fa9a060-3cff-48d2-a5cc-128d26daffca" />
 
 ### 2. Manajemen Koleksi Data (Storage)
 clas ini diguankan untuk menyimpan data pulsa dan paket data
@@ -34,7 +39,9 @@ clas ini diguankan untuk menyimpan data pulsa dan paket data
 * **`ArrayList<Pulsa>`**: Menyimpan koleksi objek dari class `Pulsa`.
 * **`ArrayList<PaketData>`**: Menyimpan koleksi objek dari class `PaketData`.
 * **Keunggulan**: Penggunaan `ArrayList` memungkinkan sistem melakukan penambahan dan penghapusan data secara fleksibel tanpa batasan ukuran array statis.
+
   <img width="367" height="153" alt="image" src="https://github.com/user-attachments/assets/038752d8-d163-487b-ae40-46031b7df225" />
+
 
 ### 3. Logika Utama (Main System Control)
 Pusat kendali program berada pada kelas utama :
@@ -43,7 +50,11 @@ Pusat kendali program berada pada kelas utama :
 * **Looping (`do-while`)**: Menjaga aplikasi tetap aktif sehingga pengguna dapat melakukan navigasi menu berkali-kali tanpa harus memulai ulang program.
 * **Percabangan (`switch-case`)**: Menentukan fitur mana yang akan dieksekusi berdasarkan input angka dari pengguna.
 * **Validasi Kondisional (`if-else`)**: Digunakan untuk sub-menu (memilih kategori produk) serta pengecekan batas indeks agar tidak terjadi error `IndexOutOfBounds` saat proses Update atau Delete.
-  <img width="461" height="202" alt="image" src="https://github.com/user-attachments/assets/9673edeb-4cd7-4730-b91f-c9b0740a433d" />
+
+   <img width="461" height="202" alt="image" src="https://github.com/user-attachments/assets/9673edeb-4cd7-4730-b91f-c9b0740a433d" />
+
+
+---
 
 ## 🚀 Fitur Program
 | Fitur | Deskripsi |
@@ -62,7 +73,6 @@ Pusat kendali program berada pada kelas utama :
 
 | **Keluar** | Menghentikan eksekusi program secara aman. |
 <img width="270" height="137" alt="image" src="https://github.com/user-attachments/assets/0a3e0a3c-e634-4f39-b371-e1da52c20c83" />
-
 
 ---
 
@@ -102,6 +112,7 @@ Pilih Menu: _perbarui harga pada item Pulsa atau Paket Data tertentu berdasarkan
 * `PaketData`: Class data untuk entitas Paket Data.
 
 ---
+
 ## 👤 Identitas Pengembang
 * **Nama** : Dewi astuti
 * **NIM** : 2409106007
