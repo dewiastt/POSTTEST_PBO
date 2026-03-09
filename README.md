@@ -14,9 +14,7 @@
 ---
 
 ## 🏗️ Struktur Program
-Program terdiri dari tiga kelas utama yang saling terintegrasi dan Program ini juga dirancang menggunakan arsitektur **Object-Oriented Programming (OOP)** sederhana yang memisahkan antara entitas data (Model) dan logika pemrosesan (Main System).
-
----
+ Program terdiri dari tiga kelas utama yang saling terintegrasi dan Program ini juga dirancang menggunakan arsitektur **Object-Oriented Programming (OOP)** sederhana yang memisahkan antara entitas data (Model) dan logika pemrosesan (Main System).
 
 ### 1. Entitas Data (Data Class)
 Setiap class merepresentasikan produk digital yang berbeda:
@@ -77,45 +75,7 @@ Pusat kendali program berada pada kelas utama :
 <img width="270" height="137" alt="image" src="https://github.com/user-attachments/assets/0a3e0a3c-e634-4f39-b371-e1da52c20c83" />
 
 ---
-
-## 🖥️ Struktur Menu Program
-Saat dijalankan, program akan menampilkan menu sebagai berikut:
-```text
-===============================================
-===== SISTEM PENGISIAN PULSA & PAKET DATA =====
-===============================================
-1. Tambah Data (Create)
-2. Lihat Data (Read)
-3. Update Harga (Update)
-4. Hapus Data (Delete)
-5. Keluar
-===============================================
-Pilih Menu: _perbarui harga pada item Pulsa atau Paket Data tertentu berdasarkan indeks.
-* **Delete**: Menghapus data Pulsa atau Paket Data dari daftar.
-
-## 3. Implementasi Modul
-
-### Modul 1: Pengenalan PBO & Dasar Java
-* **ArrayList**: Digunakan sebagai wadah penyimpanan data dinamis untuk menampung objek dari class `Pulsa` dan `PaketData`.
-* **Control Flow**: 
-    * `do-while`: Digunakan untuk menjaga program tetap berjalan hingga user memilih menu "Keluar".
-    * `switch-case`: Digunakan untuk percabangan menu utama (1-5).
-    * `if-else`: Digunakan untuk sub-menu (memilih kategori Pulsa/Paket) dan validasi indeks agar tidak terjadi error saat update/delete.
-* **Scanner**: Digunakan untuk menangkap input dari keyboard pengguna.
-
-### Modul 2: Class dan Object
-* **Class & Property**: Membuat blueprint `Pulsa` (properti: provider, nominal, harga) dan `PaketData` (properti: namaPaket, kuota, harga).
-* **Constructor**: Digunakan untuk menginisialisasi objek baru secara instan saat ditambahkan ke dalam ArrayList.
-* **Keyword `this`**: Digunakan di dalam constructor untuk merujuk pada properti internal class agar tidak tertukar dengan parameter input.
-
-## 4. Struktur Kode
-* `Main.java`: Berisi logika utama program dan manajemen menu.
-* `Pulsa`: Class data untuk entitas Pulsa.
-* `PaketData`: Class data untuk entitas Paket Data.
-
----
-
-## 👤 Identitas Pengembang
+| ## 👤 Identitas Pengembang |
 * **Nama** : Dewi astuti
 * **NIM** : 2409106007
 * **Kelas** : A1'24
