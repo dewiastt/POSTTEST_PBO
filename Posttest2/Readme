@@ -1,0 +1,204 @@
+# Posttest 2 - Pemrograman Berorientasi Objek (Encapsulation)
+
+## Identitas Mahasiswa
+
+* **Nama:** Dewi Astuti
+* **NIM:** 2409106007
+* **Mata Kuliah:** Pemrograman Berorientasi Objek
+* **Posttest:** Posttest 2
+* **Topik:** Penerapan Encapsulation dalam Java
+
+---
+
+# Deskripsi Program
+
+Program ini merupakan pengembangan dari **Posttest 1** yang menerapkan konsep **Encapsulation dalam Pemrograman Berorientasi Objek menggunakan bahasa Java**.
+
+Program dibuat untuk mengelola **data pulsa dan paket data** menggunakan sistem sederhana berbasis **menu pada terminal (console)**.
+
+Pengguna dapat melakukan beberapa operasi terhadap data yang disimpan menggunakan **ArrayList**.
+
+---
+
+# Fitur Program
+
+Program memiliki beberapa fitur utama yaitu:
+
+1. **Tambah Data (Create)**
+   Menambahkan data pulsa atau paket data baru.
+
+2. **Lihat Data (Read)**
+   Menampilkan seluruh data pulsa dan paket data yang tersimpan.
+
+3. **Update Harga (Update)**
+   Mengubah harga dari pulsa atau paket data tertentu.
+
+4. **Hapus Data (Delete)**
+   Menghapus data berdasarkan indeks.
+
+5. **Keluar Program**
+   Mengakhiri program.
+
+---
+
+# Konsep Pemrograman Berorientasi Objek yang Digunakan
+
+## 1. Class
+
+Program terdiri dari beberapa class:
+
+* `Main`
+* `Pulsa`
+* `PaketData`
+
+Setiap class memiliki fungsi masing-masing dalam program.
+
+---
+
+## 2. Object
+
+Object dibuat dari class `Pulsa` dan `PaketData`.
+
+Contoh pembuatan object:
+
+```java
+new Pulsa("Telkomsel", 10000, 12000);
+```
+
+Object ini menyimpan informasi mengenai:
+
+* Provider
+* Nominal
+* Harga
+
+---
+
+## 3. Encapsulation
+
+Encapsulation digunakan untuk **menyembunyikan data pada class** sehingga tidak dapat diakses langsung dari luar class.
+
+Atribut dibuat menggunakan **access modifier `private`**.
+
+Contoh:
+
+```java
+private int harga;
+```
+
+Dengan cara ini data hanya dapat diakses melalui **method getter dan setter**.
+
+---
+
+## 4. Getter dan Setter
+
+Getter dan Setter digunakan untuk **mengambil dan mengubah nilai atribut**.
+
+Contoh Getter:
+
+```java
+public int getHarga(){
+    return harga;
+}
+```
+
+Contoh Setter:
+
+```java
+public void setHarga(int harga){
+    this.harga = harga;
+}
+```
+
+---
+
+## 5. Access Modifier
+
+Program ini menerapkan **empat jenis access modifier dalam Java**.
+
+| Access Modifier | Fungsi                                              |
+| --------------- | --------------------------------------------------- |
+| public          | dapat diakses dari mana saja                        |
+| private         | hanya dapat diakses dalam class                     |
+| protected       | dapat diakses dalam package yang sama atau subclass |
+| default         | hanya dapat diakses dalam package yang sama         |
+
+Penggunaan access modifier bertujuan untuk **mengatur hak akses terhadap atribut dan method dalam program**.
+
+---
+
+# Struktur Project
+
+Struktur folder project adalah sebagai berikut:
+
+```
+Posttest2
+│
+├── README.md
+└── src
+     └── posttest2
+           ├── Main.java
+           ├── Pulsa.java
+           └── PaketData.java
+```
+
+Penjelasan file:
+
+* **Main.java**
+  Berisi program utama yang menjalankan menu sistem.
+
+* **Pulsa.java**
+  Class yang digunakan untuk menyimpan data pulsa.
+
+* **PaketData.java**
+  Class yang digunakan untuk menyimpan data paket internet.
+
+---
+
+# Contoh Output Program
+
+```
+=== SISTEM PULSA & PAKET DATA ===
+1. Tambah Data
+2. Lihat Data
+3. Update Harga
+4. Hapus Data
+5. Keluar
+Pilih Menu: 2
+
+--- Data Pulsa ---
+0. Telkomsel 10000 Harga: 12000
+
+--- Data Paket Data ---
+0. Internet 5GB (5GB) Harga: 30000
+```
+
+---
+
+# Cara Menjalankan Program
+
+1. Compile program Java
+2. Jalankan file **Main.java**
+3. Pilih menu yang tersedia pada terminal
+4. Program akan menampilkan dan mengelola data pulsa serta paket data
+
+---
+
+# Kesimpulan
+
+Program ini berhasil menerapkan konsep **Encapsulation dalam Pemrograman Berorientasi Objek** menggunakan bahasa Java.
+
+Selain itu program juga menerapkan:
+
+* Class dan Object
+* Access Modifier
+* Getter dan Setter
+* Pengelolaan data menggunakan ArrayList
+* Sistem menu berbasis console
+
+Program ini menunjukkan bagaimana konsep OOP dapat digunakan untuk membuat program yang lebih terstruktur, aman, dan mudah dikembangkan.
+
+---
+
+# Repository
+
+Repository ini dibuat sebagai pengumpulan **Posttest 2 Pemrograman Berorientasi Objek**.
